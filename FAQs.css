@@ -1,0 +1,57 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body style */
+  body {
+    font-family: Arial, sans-serif;
+    background-color:#fff;
+  }
+  
+  /* Container style */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color:#ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  /* Heading style */
+  h1 {
+    text-underline-position: below;
+    font-size: 25px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Question style */
+  .question {
+    font-size: 17px;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+    cursor:pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .question:hover {
+    color: #1a1919;
+  }
+  
+  /* Answer style */
+  .answer {
+    font-size: 15px;
+    font-weight: 400;
+    color: #101010;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    display: none;
+  }
+  
+  

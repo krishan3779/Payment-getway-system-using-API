@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQs</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="FAQs.css">
+	<script>
+		$(document).ready(function() {
+			$(".question").click(function() {
+				$(this).next(".answer").slideToggle("fast");
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<h1>FAQs</h1>
+		<div class="question">Q: What is this website about?</div>
+		<div class="answer">A: This website is about Payment Gateway Integration. It allows users to make donations and payments via upi,Netbanking or other payment methods.</div>
+		<div class="question">Q: How do I donate?</div>
+		<div class="answer">A:  You can donate by clicking on the donate button on the homepage of the website. This will take you to the payment page, where you can select the amount to be paid and the payment type.</div>
+		<div class="question">Q:Will I receive an invoice after making a payment?</div>
+		<div class="answer">A: Yes, an invoice will be generated and sent to your email after the payment is completed. The invoice will contain information about the amount paid.</div>
+        <div class="question">Q: Is my information secure?</div>
+		<div class="answer">A: Yes, the website uses a secure payment gateway to protect your information. The website does not store any credit card information.</div>
+	</div>
+</body>
+</html>

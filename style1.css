@@ -1,0 +1,41 @@
+.navbar{
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    }
+   
+.first {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/free-photo/two-hands-united-middle-diversity_53876-98410.jpg?w=1060&t=st=1681302854~exp=1681303454~hmac=c3611412d205f8384b8df76e1f5cb5ca0ff7bf1733526390cb644d2af66e6c03");
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+.carousel-inner{
+    margin-top: 0%;
+}
+q {
+    quotes: auto;
+    font-size: 170%;
+    
+  }
+  .foot{
+    color:gray;
+  }
+  div.quo{
+   
+    text-align: center;
+  }
